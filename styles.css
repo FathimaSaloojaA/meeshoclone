@@ -3,7 +3,7 @@
     background-color: #0f0e0e;
     color: #fff;
     
-    font-size: 16.5px;
+    
     height: 50px ;
     display: flex;
     justify-content:flex-start;
@@ -12,9 +12,15 @@
     padding:10px;
     
     }
-    .news{
-        margin-right:100px ;
-    }
+.news{
+    margin-right:240px ;
+    font-weight: bold;
+    font-size: 16px;
+}
+.news1{
+    margin-right: 70px;
+    font-size: 16px;
+}
     
 .news-icon {
     margin-right: 10px;
