@@ -1,4 +1,10 @@
 /* Top Bar Styles */
+
+body{
+    padding: 10px;
+    border: 2px solid #000;
+}
+
 .top-bar {
     background-color: #0f0e0e;
     color: #fff;
@@ -149,20 +155,27 @@
 /* Info Section Styles */
 
 /* Info Section Styles */
-.info-section {
+.info-section3 {
     background-color: #f8f8f8;
-    padding: 4rem 0;
-    position: relative;
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    padding:  50px;
+    
+    
 }
 
 .info-container {
     display: flex;
-    flex-wrap: wrap; /* Ensures cards stay in one row */
+    flex-wrap: wrap;
+    /* Ensures cards stay in one row */
     gap: 0.2rem;
     text-align: center;
+    
     position: relative;
     margin-top: -200px;
-    justify-content: center; /* Pulls the cards upwards */
+     /* Pulls the cards upwards */
 }
 
 .info-card {
@@ -184,6 +197,11 @@
     margin-bottom: 0.7rem;
     color:white;
 }
+@media (max-width: 768px) {
+    .about-us, .contact-form {
+        width: 100%;
+    }
+}
 
 .info-card h3 {
     margin-top: 0.5rem;
@@ -194,22 +212,24 @@
 
 .info-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 100px 200px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
     background-color: #fff;
-    margin-top: 1px;
+    margin-top: 10px;
+    flex-wrap: nowrap;
 }
 
 .about-us {
-    width: 50%;
+    
     text-align: center;
     margin-top: 1px;
 }
 
 .h2 {
     font-size: 30px;
-    margin-bottom: 15px;
+    align-items: center;
+    margin-top: 50px;
     color: #171616;
     text-align: center;
     font-weight: bold; /* Centering the heading */
@@ -219,18 +239,21 @@
     font-size: 17px;
     line-height: 1.8;
     color: #847575;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
+    padding-bottom: 100px;
 }
 
 .contact-form {
-    width: 47%;
-    height: 550px;
+    
+    height: 500px;
+    
     background: linear-gradient(135deg, #b60060, #e32c2c);
-    padding: 30px;
+    
     border-radius: 10px;
     color: #fff;
     margin-top:-50px ;
+
 }
 
 .contact-form h3 {
@@ -354,29 +377,33 @@
 }
 .top-colleges {
     text-align: center;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 .top-colleges p{
     font-size: 17px;
 }
+.top-colleges .row{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
 
-.college-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+
+
 }
+
+
 
 .college-card {
     position: relative;
-    width: 480px;
+    width: 600px;
     height: 380px;
-    background-size: cover;
-    background-position: center;
+    
     
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    
+    
+    
 }
 
 .college-name {
